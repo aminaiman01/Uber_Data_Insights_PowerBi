@@ -1,0 +1,23 @@
+CREATE TABLE uber_data (
+    ride_date DATE,
+    ride_time TIME,
+    booking_id VARCHAR(50),
+    booking_status VARCHAR(50),
+    customer_id VARCHAR(50),
+    vehicle_type VARCHAR(50),
+    pickup_location VARCHAR(100),
+    drop_location VARCHAR(100),
+    avg_vtat DECIMAL(10,2),
+    avg_ctat DECIMAL(10,2),
+    cancelled_by_customer INT,
+    customer_cancel_reason VARCHAR(255),
+    cancelled_by_driver INT,
+    driver_cancel_reason VARCHAR(255),
+    incomplete_rides INT,
+    incomplete_reason VARCHAR(255),
+    booking_value DECIMAL(10,2),
+    ride_distance DECIMAL(10,2),
+    driver_rating DECIMAL(3,2),
+    customer_rating DECIMAL(3,2),
+    payment_method VARCHAR(50)
+);

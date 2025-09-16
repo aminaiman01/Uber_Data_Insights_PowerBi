@@ -1,0 +1,1 @@
+CREATE DATABASE uber_analytics_2024;
