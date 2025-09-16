@@ -1,7 +1,7 @@
 
 # Uber Ride Analytics Dashboard
 
-![Dashboard](assets/uber_dashboard.gif)
+![Dashboard](assets/dashboard2.gif)
 
 ## 📌 Introduction
 
@@ -48,6 +48,8 @@ The dataset consists of **150K+ bookings** with details about rides, distances, 
 * **62% successful rides** vs **38% cancellations**.
 * Total booking value exceeded **47M units**.
 
+![Dashboard](assets/asset1.png)
+
 📈 **Insight:** The business captures strong demand, but cancellation rate (38%) is a major challenge to address.
 
 ---
@@ -56,6 +58,8 @@ The dataset consists of **150K+ bookings** with details about rides, distances, 
 
 * Revenue and bookings **fluctuate across the year**, with noticeable dips in certain months.
 * **Average ride distance remains stable (\~24.6 km)**.
+
+![Dashboard](assets/asset2.png)
 
 📈 **Insight:** Seasonality affects demand, but ride distance patterns remain consistent.
 
@@ -70,6 +74,8 @@ The dataset consists of **150K+ bookings** with details about rides, distances, 
 | Cash           | \~9.41M                  |
 | Uber Wallet    | \~8.54M                  |
 | Debit Card     | Lowest (\~1.41M)         |
+
+![Dashboard](assets/asset3.png)
 
 📈 **Insight:** **Credit cards and UPI dominate payments**, while debit card usage is minimal.
 
@@ -90,6 +96,9 @@ The dataset consists of **150K+ bookings** with details about rides, distances, 
 * Sick/coughing passengers
 * Personal & car issues
 * More than permitted passengers
+
+![Dashboard](assets/asset4.png)
+
 
 📈 **Insight:** Cancellations are evenly split between **customer and driver issues (\~25% each reason)** → indicates opportunities for **policy, training, and app improvement**.
 
@@ -123,5 +132,3 @@ The dataset consists of **150K+ bookings** with details about rides, distances, 
 * Balanced focus on **customer + driver cancellation reasons** is needed for operational improvements.
 
 ✅ This project demonstrates my ability to move from **raw dataset → SQL cleaning → Power BI interactive dashboard**, delivering **actionable insights** for a real-world business problem.
-
-![alt text](assets/uber_dashboard.png)
